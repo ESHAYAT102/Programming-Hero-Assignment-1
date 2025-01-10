@@ -10,6 +10,10 @@ body {
   background: #f5f5f5;
 }
 
+img {
+  user-select: none;
+}
+
 nav {
   z-index: 50;
   position: fixed;
@@ -21,8 +25,8 @@ nav {
   height: 80px;
   width: 100vw;
   background: rgba(255, 255, 255, 0);
-  backdrop-filter: blur(5px);
-  -webkit-backdrop-filter: blur(5px);
+  backdrop-filter: blur(10px);
+  -webkit-backdrop-filter: blur(10px);
 }
 
 nav button {
@@ -95,4 +99,40 @@ nav button:hover {
 
 #hero-right {
   margin: 64px;
+}
+
+#pillars-of-bd-2 {
+  padding: 100px 150px;
+}
+
+#pillars-of-bd-2 > h2 {
+  font-size: 32px;
+}
+
+.card-container {
+  margin: 20px 0px;
+  display: flex;
+  gap: 24px;
+}
+
+.card > img {
+  width: 64px;
+}
+
+.card > h3 {
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+.card > p {
+  color: #0e0e0e;
+  opacity: 0.7;
+  line-height: 26px;
+}
+
+.card {
+  background-color: #ffffff;
+  padding: 24px;
+  border-radius: 16px;
+  border: 1px solid #dbdbdb;
 }
