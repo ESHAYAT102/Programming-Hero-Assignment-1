@@ -1,5 +1,10 @@
 @import url("https://fonts.googleapis.com/css2?family=Fira+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
 
+::selection {
+  background-color: #2faa8b;
+  color: #a9e0d2;
+}
+
 * {
   margin: 0px;
   padding: 0px;
@@ -8,6 +13,7 @@
 
 body {
   background: #f5f5f5;
+  color: #0e0e0e;
 }
 
 img {
@@ -48,14 +54,12 @@ nav button:hover {
 #hero p {
   font-size: 20px;
   font-weight: 500;
-  color: #0e0e0e;
   opacity: 0.5;
   margin-bottom: 20px;
 }
 
 #hero h1 {
   font-weight: 700;
-  color: #0e0e0e;
   font-size: 42px;
   margin-bottom: 20px;
 }
@@ -102,11 +106,24 @@ nav button:hover {
 }
 
 #pillars-of-bd-2 {
-  padding: 100px 150px;
+  padding: 100px 150px 0px 150px;
 }
 
 #pillars-of-bd-2 > h2 {
   font-size: 32px;
+}
+
+#the-vision-of-future {
+  padding: 100px 150px 0px 150px;
+}
+
+#the-vision-of-future > h2 {
+  font-size: 32px;
+}
+
+#the-vision-of-future > p {
+  margin: 32px 0px;
+  opacity: 0.7;
 }
 
 .card-container {
@@ -135,4 +152,58 @@ nav button:hover {
   padding: 24px;
   border-radius: 16px;
   border: 1px solid #dbdbdb;
+}
+
+#card-blue {
+  background-color: #5490f520;
+  padding: 24px;
+  border-radius: 16px;
+  border: none;
+}
+
+#card-blue > button {
+  background-color: #5490f5;
+  color: #ffffff;
+  font-size: 16px;
+  font-weight: 500;
+  padding: 12px 24px;
+  border-radius: 8px;
+  border: none;
+  margin-top: 20px;
+}
+
+#card-green {
+  background-color: #c6e4d6;
+  padding: 24px;
+  border-radius: 16px;
+  border: none;
+}
+
+#card-green > button {
+  background-color: #09a15c;
+  color: #ffffff;
+  font-size: 16px;
+  font-weight: 500;
+  padding: 12px 24px;
+  border-radius: 8px;
+  border: none;
+  margin-top: 20px;
+}
+
+#card-yellow {
+  background-color: #f7ebcf;
+  padding: 24px;
+  border-radius: 16px;
+  border: none;
+}
+
+#card-yellow > button {
+  background-color: #ffc239;
+  color: #ffffff;
+  font-size: 16px;
+  font-weight: 500;
+  padding: 12px 24px;
+  border-radius: 8px;
+  border: none;
+  margin-top: 20px;
 }
