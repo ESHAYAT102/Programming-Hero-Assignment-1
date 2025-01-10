@@ -113,19 +113,6 @@ nav button:hover {
   font-size: 32px;
 }
 
-#the-vision-of-future {
-  padding: 100px 150px 0px 150px;
-}
-
-#the-vision-of-future > h2 {
-  font-size: 32px;
-}
-
-#the-vision-of-future > p {
-  margin: 32px 0px;
-  opacity: 0.7;
-}
-
 .card-container {
   margin: 20px 0px;
   display: flex;
@@ -154,6 +141,19 @@ nav button:hover {
   border: 1px solid #dbdbdb;
 }
 
+#the-vision-of-future {
+  padding: 100px 150px 0px 150px;
+}
+
+#the-vision-of-future > h2 {
+  font-size: 32px;
+}
+
+#the-vision-of-future > p {
+  margin: 32px 0px;
+  opacity: 0.7;
+}
+
 #card-blue {
   background-color: #5490f520;
   padding: 24px;
@@ -170,6 +170,7 @@ nav button:hover {
   border-radius: 8px;
   border: none;
   margin-top: 20px;
+  cursor: pointer;
 }
 
 #card-green {
@@ -188,6 +189,7 @@ nav button:hover {
   border-radius: 8px;
   border: none;
   margin-top: 20px;
+  cursor: pointer;
 }
 
 #card-yellow {
@@ -206,4 +208,39 @@ nav button:hover {
   border-radius: 8px;
   border: none;
   margin-top: 20px;
+  cursor: pointer;
+}
+
+#quote {
+  padding: 50px 150px 0px 150px;
+}
+
+#quote > div {
+  background-color: #ffffff;
+  border: 1px solid #dbdbdb;
+  border-radius: 16px;
+}
+
+#quote > div > img {
+  width: 64px;
+  margin: 20px;
+}
+
+.quote {
+  margin: 20px;
+  margin-top: -64px;
+}
+
+.quote-name {
+  opacity: 0.8;
+  font-size: 20px;
+  font-weight: 600;
+  margin-left: 20px;
+  margin-bottom: 10px;
+}
+
+.quote-description {
+  opacity: 0.6;
+  margin-left: 20px;
+  margin-bottom: 36px;
 }
