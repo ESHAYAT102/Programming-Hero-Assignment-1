@@ -412,3 +412,68 @@ nav button:hover {
 #donate > div > button:hover {
   background-color: #015d46;
 }
+
+#subscribe {
+  padding: 100px 150px 0px 150px;
+}
+
+#subscribe > div {
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+  background-color: #c6e4d6;
+  padding: 64px 0px;
+  border-radius: 24px;
+  margin-bottom: 100px;
+}
+
+#subscribe > div > h2 {
+  font-size: 32px;
+  margin-bottom: 24px;
+}
+
+#subscribe > div > p {
+  opacity: 0.7;
+}
+
+#subscribe > div > div {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 24px;
+}
+
+#subscribe > div > div > input {
+  margin-top: 24px;
+  margin-right: 0px;
+  width: 600px;
+  padding: 10px 10px 10px 16px;
+  font-size: 20px;
+  border-radius: 8px 0px 0px 8px;
+  border: 1px solid #dbdbdb;
+  color: #006a50;
+  outline: none;
+  transition: all 0.3s ease;
+}
+
+#subscribe > div > div > input:focus {
+  background-color: #c6e4d6;
+  border: 1px solid #aac4b8;
+}
+
+#subscribe > div > div > button {
+  margin-top: 24px;
+  margin-left: 0px;
+  font-size: 16px;
+  padding: 12px 24px;
+  border-radius: 0px 8px 8px 0px;
+  background-color: #006a50;
+  color: #f5f5f5;
+  font-weight: 500;
+  border: none;
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+
+#subscribe > div > div > button:hover {
+  background-color: #015d46;
+}
