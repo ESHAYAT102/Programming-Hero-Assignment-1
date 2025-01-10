@@ -188,6 +188,11 @@ nav button:hover {
   border: none;
   margin-top: 20px;
   cursor: pointer;
+  transition: all 0.3s;
+}
+
+#card-blue > button:hover {
+  background-color: #3d80f2;
 }
 
 #card-green {
@@ -207,6 +212,11 @@ nav button:hover {
   border: none;
   margin-top: 20px;
   cursor: pointer;
+  transition: all 0.3s;
+}
+
+#card-green > button:hover {
+  background-color: #0c9457;
 }
 
 #card-yellow {
@@ -226,6 +236,11 @@ nav button:hover {
   border: none;
   margin-top: 20px;
   cursor: pointer;
+  transition: all 0.3s;
+}
+
+#card-yellow > button:hover {
+  background-color: #f0b222;
 }
 
 #quote {
