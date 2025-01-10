@@ -2,6 +2,7 @@
 
 ::-webkit-scrollbar {
   width: 6px;
+  height: 6px;
 }
 
 ::-webkit-scrollbar-track {
@@ -476,4 +477,33 @@ nav button:hover {
 
 #subscribe > div > div > button:hover {
   background-color: #015d46;
+}
+
+footer {
+  background: #ffffff;
+  text-align: center;
+  justify-content: center;
+  justify-items: center;
+  align-items: center;
+}
+
+footer h2 {
+  font-size: 32px;
+  padding: 36px;
+}
+
+.line {
+  width: 80vw;
+  height: 1px;
+  background: #dbdbdb;
+}
+
+.icon-container {
+  display: flex;
+  gap: 24px;
+  margin-top: 24px;
+  padding-bottom: 24px;
+}
+.icon-container > a > img {
+  width: 28px;
 }
