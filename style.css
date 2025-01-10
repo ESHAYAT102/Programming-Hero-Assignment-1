@@ -380,6 +380,7 @@ nav button:hover {
 
 #donate > div > input {
   margin-top: 24px;
+  text-align: center;
   width: 600px;
   padding: 10px 10px 10px 16px;
   font-size: 20px;
