@@ -1,5 +1,19 @@
 @import url("https://fonts.googleapis.com/css2?family=Fira+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
 
+::-webkit-scrollbar {
+  width: 6px;
+}
+
+::-webkit-scrollbar-track {
+  background-color: transparent;
+  border-radius: 20px;
+}
+
+::-webkit-scrollbar-thumb {
+  background-color: #006a50;
+  border-radius: 20px;
+}
+
 ::selection {
   background-color: #2faa8b;
   color: #a9e0d2;
@@ -36,6 +50,7 @@ nav {
 }
 
 nav button {
+  font-size: 16px;
   padding: 10px 20px;
   border-radius: 8px;
   border: 1px solid #006a50;
@@ -65,6 +80,7 @@ nav button:hover {
 }
 
 #hero button {
+  font-size: 16px;
   padding: 16px 24px;
   border-radius: 8px;
   background-color: #006a50;
@@ -243,4 +259,77 @@ nav button:hover {
   opacity: 0.6;
   margin-left: 20px;
   margin-bottom: 36px;
+}
+
+#news {
+  padding: 100px 150px 0px 150px;
+}
+
+#news > h2 {
+  font-size: 32px;
+}
+
+#news > p {
+  margin: 32px 0px;
+  opacity: 0.7;
+}
+
+#news > div {
+  background-color: #ffffff;
+  border-radius: 24px;
+  margin-bottom: 24px;
+  display: flex;
+  align-items: center;
+}
+
+.news-details {
+  margin-right: 50px;
+  margin-left: 50px;
+}
+
+.thumbnail {
+  object-fit: cover;
+  width: 400px;
+  height: 300px;
+  margin: 50px;
+  border-radius: 20px;
+}
+
+.news-header {
+  font-size: 32px;
+  opacity: 0.8;
+}
+
+.aljazeera {
+  width: 120px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+#news > div > div > div {
+  display: flex;
+  gap: 20px;
+  margin-bottom: 20px;
+  opacity: 0.7;
+}
+
+.news-description {
+  opacity: 0.7;
+}
+
+#news > div > div > button {
+  font-size: 16px;
+  padding: 12px 24px;
+  margin-top: 20px;
+  border-radius: 8px;
+  background-color: #006a50;
+  color: #f5f5f5;
+  font-weight: 500;
+  border: none;
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+
+#news > div > div > button:hover {
+  background-color: #015d46;
 }
