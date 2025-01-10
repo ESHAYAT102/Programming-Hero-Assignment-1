@@ -101,7 +101,7 @@ nav button:hover {
 
 #hero > div {
   background: #c6e4d6;
-  margin-top: 100px;
+  margin-top: 120px;
   display: flex;
   justify-content: space-between;
   width: 100%;
@@ -331,5 +331,83 @@ nav button:hover {
 }
 
 #news > div > div > button:hover {
+  background-color: #015d46;
+}
+
+#donate {
+  padding: 100px 150px 0px 150px;
+}
+
+#donate > div {
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+}
+
+#donate > div > h2 {
+  font-size: 32px;
+  margin-bottom: 24px;
+}
+
+#donate > div > p {
+  opacity: 0.7;
+}
+
+#donate > div > div {
+  display: flex;
+  gap: 24px;
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+  margin-top: 24px;
+}
+
+#donate > div > div > div {
+  font-size: 24px;
+  font-weight: 600;
+  padding: 24px 36px;
+  background-color: #ffffff;
+  border: 1px solid #dbdbdb;
+  border-radius: 12px;
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+
+#donate > div > div > div:hover {
+  background-color: #c6e4d6;
+  border: 1px solid #aac4b8;
+}
+
+#donate > div > input {
+  margin-top: 24px;
+  width: 600px;
+  padding: 10px 10px 10px 16px;
+  font-size: 20px;
+  border-radius: 8px;
+  border: 1px solid #dbdbdb;
+  color: #006a50;
+  outline: none;
+  transition: all 0.3s ease;
+}
+
+#donate > div > input:focus {
+  background-color: #c6e4d6;
+  border: 1px solid #aac4b8;
+}
+
+#donate > div > button {
+  margin-top: 24px;
+  font-size: 16px;
+  padding: 16px 24px;
+  border-radius: 8px;
+  background-color: #006a50;
+  color: #f5f5f5;
+  font-weight: 500;
+  border: none;
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+
+#donate > div > button:hover {
   background-color: #015d46;
 }
